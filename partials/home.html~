@@ -1,0 +1,134 @@
+<div class="container body-content">
+      <div class="jumbotron" style="text-align:center">
+        <h1 class="logo">{{title}}</h1>
+        <p class="lead">Search a variety of social networks for information on your school work with hashtags</p>
+        <p></p>
+        <form action="/" class="form-group form-inline" method="post" role="form">
+          <div class="form-group"><input autocomplete="off" class="form-control input-lg" id="search" name="search" placeholder="Search..." type= "text"></div>
+          <div class="form-group"><button class="btn btn-lg btn-primary" type="submit" data-loading-text="Searching..." autocomplete="off">Search
+            </button>
+          </div>
+        </form>
+      </div>
+    </div> <!-- end of jumbotron -->
+    <div class="container">
+    <div class="col-md-4" style="position:relative;padding-right:25px;">
+      <div class="row">
+          <div class="thumbnail" style="left: 0px; top: 0px;">
+            <div class="caption">
+              <h3>
+                <i class="fa fa-twitter"></i>
+                Caption Title (container1)
+              </h3>
+              <p>small caption about #then #so #many #hashtag #this #is #spam #how #isthis #allowed #mdness #realm #of #chaos #tan #skin</p>
+              <small data-value="11/25/2014 10:29:40 AM"> uploaded about # minutes ago</small>
+              <i class="fa fa-twitter-square fa-3x pull-right" aria-hidden="true"style="position:relative;bottom:13px;"></i>
+            </div>
+          </div>
+                <div class="thumbnail" style="left: 0px; top: 0px;">
+            <img src="http://scontent-a.cdninstagram.com/hphotos-xaf1/t51.2885-15/10810038_628886890570921_1899027632_n.jpg">
+            <div class="caption">
+              <h3>
+                <i class="fa fa-google-plus-square"></i>
+                Caption Title (container2)
+              </h3>
+              <p>small caption about #then #so #many #hashtag #this #is #spam #how #isthis #allowed #mdness #realm #of #chaos #tan #skin</p>
+              <small data-value="11/25/2014 10:29:40 AM"> uploaded about # minutes ago</small>
+              <i class="fa fa-google-plus-square fa-3x pull-right" aria-hidden="true"style="position:relative;bottom:13px;"></i>
+            </div>
+          </div>
+          </div>
+    </div> <!-- left collumn end div -->
+    <div class="container col-md-4" style="position:relative; padding-left:20px;padding-right:20px;">
+        <div class="row">
+          <div class="thumbnail" style="left: 0px; top: 0px;">
+            <div class="caption">
+              <h3>
+                <i class="fa fa-twitter"></i>
+                Caption Title (container1)
+              </h3>
+              <p>small caption about #then #so #many #hashtag #this #is #spam #how #isthis #allowed #mdness #realm #of #chaos #tan #skin</p>
+              <small data-value="11/25/2014 10:29:40 AM"> uploaded about # minutes ago</small>
+              <i class="fa fa-twitter-square fa-3x pull-right" aria-hidden="true"style="position:relative;bottom:13px;"></i>
+              <a href="OGLink" onclick="ga('send', 'event', 'thumbnail', 'link')"; tab.open(this.href, 'hashtag', 'left=20,top=20,width=600,height=700,toolbar=1,resizable=0')>
+              <i class="what even is this for"></i>
+              </a>
+            </div>
+          </div>
+                    <div class="thumbnail" style="left: 0px; top: 0px;">
+            <img src="http://scontent-a.cdninstagram.com/hphotos-xaf1/t51.2885-15/10810038_628886890570921_1899027632_n.jpg">
+            <div class="caption">
+              <h3>
+                <i class="fa fa-facebook-square"></i>
+                Caption Title (container3)
+              </h3>
+              <p>small caption about #then #so #many #hashtag #this #is #spam #how #isthis #allowed #mdness #realm #of #chaos #tan #skin</p>
+              <small data-value="11/25/2014 10:29:40 AM"> uploaded about # minutes ago</small>
+              <i class="fa fa-facebook-square fa-3x pull-right" aria-hidden="true" style="position:relative;bottom:13px;"></i>
+              <a href="OGLink" onclick="ga('send', 'event', 'thumbnail', 'link')"; tab.open(this.href, 'hashtag', 'left=20,top=20,width=600,height=700,toolbar=1,resizable=0')>
+              </a>
+            </div>
+          </div>
+          <div class="thumbnail" style="left: 0px; top: 0px;">
+            <img src="http://scontent-a.cdninstagram.com/hphotos-xaf1/t51.2885-15/10810038_628886890570921_1899027632_n.jpg">
+            <div class="caption">
+              <h3>
+                <i class="fa fa-google-plus-square"></i>
+                Caption Title (container2)
+              </h3>
+              <p>small caption about #then #so #many #hashtag #this #is #spam #how #isthis #allowed #mdness #realm #of #chaos #tan #skin</p>
+              <small data-value="11/25/2014 10:29:40 AM"> uploaded about # minutes ago</small>
+              <i class="fa fa-google-plus-square fa-3x pull-right" aria-hidden="true"style="position:relative;bottom:13px;"></i>
+              <a href="OGLink" onclick="ga('send', 'event', 'thumbnail', 'link')"; tab.open(this.href, 'hashtag', 'left=20,top=20,width=600,height=700,toolbar=1,resizable=0')>
+              </a>
+            </div>
+          </div>
+      </div>
+    </div> <!-- middle collumn end div -->
+    <div class="container col-md-4" style="position:relative;padding-left:25px;">
+      <div class="row">
+          <div class="thumbnail" style="left: 0px; top: 0px;">
+            <div class="caption">
+              <h3>
+                <i class="fa fa-twitter"></i>
+                Caption Title (container1)
+              </h3>
+              <p>small caption about #then #so #many #hashtag #this #is #spam #how #isthis #allowed #mdness #realm #of #chaos #tan #skin</p>
+              <small data-value="11/25/2014 10:29:40 AM"> uploaded about # minutes ago</small>
+              <i class="fa fa-twitter-square fa-3x pull-right" aria-hidden="true"style="position:relative;bottom:13px;"></i>
+              <a href="OGLink" onclick="ga('send', 'event', 'thumbnail', 'link')"; tab.open(this.href, 'hashtag', 'left=20,top=20,width=600,height=700,toolbar=1,resizable=0')>
+              <i class="what even is this for"></i>
+              </a>
+            </div>
+          </div>
+          <div class="thumbnail" style="position: relative; left: 0px; top: 0px;">
+          <div class="caption">
+              <h3>
+                <i class="fa fa-tumblr-square"></i>
+                Caption Title (container5)
+              </h3>
+              <p>small caption about #then #so #many #hashtag #this #is #spam #how #isthis #allowed #mdness #realm #of #chaos #tan #skin</p>
+              <small data-value="11/25/2014 10:29:40 AM"> uploaded about # minutes ago</small>
+              <i class="fa fa-tumblr-square fa-3x pull-right" aria-hidden="true" style="position:relative;bottom:13px;"></i>
+              <a href="OGLink" onclick="ga('send', 'event', 'thumbnail', 'link')"; tab.open(this.href, 'hashtag', 'left=20,top=20,width=600,height=700,toolbar=1,resizable=0')>
+              </a>
+            </div>
+          </div>
+          <div class="thumbnail" style="position: relative; left: 0px; top: 0px;">
+            <img src="http://scontent-a.cdninstagram.com/hphotos-xaf1/t51.2885-15/10810038_628886890570921_1899027632_n.jpg">
+            <div class="caption">
+              <h3>
+                <i class="fa fa-instagram"></i>
+                Caption Title (container4)
+              </h3>
+              <p>small caption about #then #so #many #hashtag #this #is #spam #how #isthis #allowed #mdness #realm #of #chaos #tan #skin</p>
+              <small data-value="11/25/2014 10:29:40 AM"> uploaded about # minutes ago</small>
+              <i class="fa fa-instagram fa-3x pull-right" aria-hidden="true" style="position:relative;bottom:13px;"></i>
+              <a href="OGLink" onclick="ga('send', 'event', 'thumbnail', 'link')"; tab.open(this.href, 'hashtag', 'left=20,top=20,width=600,height=700,toolbar=1,resizable=0')>
+              </a>
+            </div>
+          </div>
+      </div>
+    </div> <!-- right collumn end div -->
+  </div>
+<p>This is the partial for view 1.</p>

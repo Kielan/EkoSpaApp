@@ -1,0 +1,2 @@
+var chunk = require('lodash-node/modern/array/chunk');
+var memoize = require('lodash-node/modern/function/memoize');
