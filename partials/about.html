@@ -3,8 +3,16 @@
     <img class="media-object" >
   </div>
   <div class="media-body">
-    
-    <h1>{{ title }}</h1>
-    <p>{{ tagline }}</p>
-  </div>
+    <form>
+      <div class="form-group">
+	<label for="exampleInputEmail1">Title</label>
+	<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter Title">
+      </div>
+           <div class="alert" flow-drop flow-drag-enter="class='alert-success'" flow-drag-leave="class=''"
+          ng-class="class">
+<img flow-img="$flow.files[0]" />
+	</div>
+
+      </form>
+     
 </div>

@@ -1,22 +1,33 @@
 "use strict";
-var chunk = require('lodash-node/modern/array/chunk');
-var memoize = require('lodash-node/modern/function/memoize');
-
 
 var app = angular.module('sampleApp', [
     'sampleApp.controllers',
     'sampleApp.filters',
     'sampleApp.directives',
-    'sampleApp.services'
+    'sampleApp.services',
+    'flow'
 ]);
 
-app.filter('chunk', function() {
-  return memoize(chunk);
-});
 
 app.config(["$routeProvider", function ($routeProvider) {
   $routeProvider
     .when("/about", {controller: "AboutCtrl", templateUrl: "partials/about.html"})
     .when("/", {controller: "HomeCtrl", templateUrl: "partials/home.html"})
-    .otherwise({redirectTo: "/"})
+	.otherwise({redirectTo: "/"})
 }])
+
+app.config(['flowFactoryProvider', function (flowFactoryProvider) {
+  flowFactoryProvider.defaults = {
+    target: 'upload.php',
+    permanentErrors: [404, 500, 501],
+    maxChunkRetries: 1,
+    chunkRetryInterval: 5000,
+    simultaneousUploads: 4,
+    singleFile: true
+  };
+  flowFactoryProvider.on('catchAll', function (event) {
+    console.log('catchAll', arguments);
+  });
+  // Can be used with different implementations of Flow.js
+  // flowFactoryProvider.factory = fustyFlowFactory;
+}]);
