@@ -47,5 +47,11 @@
 }
 
 .thumbnail {
-    min-height: 450px;
+    min-height: 500px;
+    min-width: 350px;
+}
+
+#dropbBox {
+    height: 300px;
+    width: 300px;
 }
